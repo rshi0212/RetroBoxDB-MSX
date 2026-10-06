@@ -1,0 +1,195 @@
+{
+  "platform": "msx1",
+  "started_at": "2026-10-06T14:28:02.084043+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "Microsoft - MSX (Parent-Clone)",
+      "version": "20260618-055428"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/Microsoft - MSX",
+      "/mnt/MyShare/No-Intro/Microsoft - MSX (Aftermarket)"
+    ],
+    "families": 622,
+    "family_assignment": {
+      "family_from_dat_or_db": 959
+    },
+    "errors": [],
+    "groups": 1,
+    "raw_group_bytes": 38748196,
+    "stored_group_bytes": 11782953,
+    "zips": 959,
+    "sidecar_files": 0,
+    "seconds": 20
+  },
+  "scan": {
+    "1": {
+      "match": 952,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 0
+    }
+  },
+  "dat_diff": {},
+  "catalog": {
+    "games": 622,
+    "releases": 952,
+    "old_dat_games_linked": 0,
+    "rom_release_links": 952
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "20260618-055428",
+    "archives": 952,
+    "files": 961,
+    "files_with_local_payload": 952,
+    "sources": 983,
+    "dumplog_rows": 952,
+    "dat_links": 952,
+    "archive_release_links": 952,
+    "hardware_assertions": 11,
+    "dumplog_status": {
+      "unverified": 905,
+      "trusted_unverified": 47
+    },
+    "anomalies": {
+      "file_without_sha256": 928
+    }
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 952
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 29,
+    "fetched_at": "2026-10-06T14:28:28.749318+00:00",
+    "games": 603,
+    "hashes": 981,
+    "games_with_achievements": 140,
+    "hashes_of_games_with_achievements": 237,
+    "local_roms_matched": 59,
+    "ra_games_with_local_rom": 48,
+    "dat_entries_matched": 59,
+    "ra_games_in_any_dat": 48,
+    "hashes_with_achievements_unexplained": 178,
+    "by_category_local": {
+      "Homebrew": 1,
+      "Official": 44,
+      "Unlicensed": 3
+    }
+  },
+  "game_names": {
+    "source_name": "Microsoft - MSX.csv",
+    "source_sha256": "45ff6b52bfffbe10dba5cbfe64b9de6ea233f99bfdc363d083671cad865d07e6",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 944,
+    "rows_with_chinese": 907,
+    "unique_chinese_names": 577,
+    "normalized_titles": 617,
+    "matched_rows": 944,
+    "matched_rows_with_chinese": 907,
+    "matched_releases": 944,
+    "releases_with_chinese": 907,
+    "matched_games": 614,
+    "matched_roms": 944,
+    "matched_links": 944,
+    "ambiguous_links": 0,
+    "ambiguous_rows": 0,
+    "unmatched_rows": 0,
+    "unresolved_rows": [],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 943,
+      "qualified_title": 1
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 955,
+    "archive_plans_checked": 963,
+    "compression_groups_checked": 1,
+    "historical_zip_objects": 963,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 2876,
+      "objects": 1918,
+      "chunks": 1131,
+      "roms": 952,
+      "dat_sets": 1,
+      "dat_roms": 952,
+      "transformations": 0,
+      "packages": 952,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 42271999,
+      "historical_zip_bytes_not_stored": 22723124,
+      "unique_raw_chunk_bytes": 39716095,
+      "stored_chunk_bytes": 11943522,
+      "header_body_recipes": 0,
+      "zip_plans": 963,
+      "file_occurrences": 2876,
+      "catalog_objects": 1918
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 952
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 1128,
+        "raw_bytes": 38748196,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 3,
+        "raw_bytes": 967899,
+        "stored_bytes": 160569
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 1,
+      "raw_bytes": 38748196,
+      "stored_bytes": 11782953
+    },
+    "platform": "msx1",
+    "solid_groups": {
+      "groups": 1,
+      "raw_bytes": 38748196,
+      "stored_bytes": 11782953
+    }
+  },
+  "finished_at": "2026-10-06T14:28:31.159393+00:00",
+  "seconds": 30,
+  "database_bytes": 21692416
+}

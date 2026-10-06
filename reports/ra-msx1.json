@@ -1,0 +1,46 @@
+{
+  "snapshot_id": 1,
+  "console_id": 29,
+  "fetched_at": "2026-10-06T14:28:28.749318+00:00",
+  "ra_games_with_achievements": 92,
+  "status_totals": {
+    "local": 92,
+    "local_other_platform": 0,
+    "dat_only": 0,
+    "nointro_db_only": 0,
+    "unmatched": 0
+  },
+  "by_category": {
+    "Official": {
+      "local": 49
+    },
+    "Homebrew": {
+      "local": 36
+    },
+    "Homebrew/Prototype": {
+      "local": 1
+    },
+    "Unlicensed": {
+      "local": 6
+    }
+  },
+  "sibling_databases": [
+    "msx2"
+  ],
+  "shared_console_scope": true,
+  "local_roms_with_achievements": 115,
+  "rule": "RA hash = MD5 of the complete file; exact hash equality only",
+  "local_games_by_source": {
+    "nointro": 3,
+    "nointro,retroachievements": 45,
+    "retroachievements": 44
+  },
+  "retroachievements_collections": {
+    "RA - Microsoft MSX": {
+      "in_nointro_dat": 55,
+      "ra_only": 56
+    }
+  },
+  "collection_files_with_unknown_ra_hash": 0,
+  "missing_by_category": {}
+}
